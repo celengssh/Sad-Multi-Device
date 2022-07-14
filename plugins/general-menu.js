@@ -111,7 +111,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 /*conn.sendFile(m.chat, vn, 'dj1.mp3', null, m, true, {
 type: 'audioMessage', 
 ptt: true 
-})*/
+})
     // conn.sendButton(m.chat, 
     //`*Hi, ${name} 👋*\n\n`, 
   //  text.trim(), './media/marin.jpg', [
@@ -122,7 +122,7 @@ ptt: true
     m.reply('An error occurred')
     throw e
   }
-}
+}*/
 handler.help = ['m']
 handler.tags = ['general']
 handler.alias = ['m']
