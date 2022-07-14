@@ -24,22 +24,22 @@ handler.all = async function (m) {
         
 		// Ini untuk command crator/owner
 		global.kontak2 = [
-         [owner[0], await conn.getName(owner[0] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'fahriadison12@gmail.com', true],
-         [owner[1], await conn.getName(owner[1] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'fahriadison12@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
+         [owner[0], await conn.getName(owner[0] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'anangq928@gmail.com', true],
+         [owner[1], await conn.getName(owner[1] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'anangq928@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
         ]
         
 		// ucapan ini mah
 		global.ucapan = ucapan()
 		
 		// pesan sementara
-		global.ephemeral = '86400' // 86400 = 24jam, kalo ingin di hilangkan ganti '86400' jadi 'null' atau ''
+		global.ephemeral = '86400' // 8400 = 24jam, kalo ingin di hilangkan ganti '86400' jadi 'null' atau ''
 		let urls = pickRandom(['https://tinyurl.com/248tem3e', 'https://tinyurl.com/2ygkf7cn', 'https://tinyurl.com/29rt6ynv', 'https://tinyurl.com/25ampr4y', 'https://tinyurl.com/2yq9srmd', 'https://tinyurl.com/2bahkesq', 'https://tinyurl.com/2xnzw74a', 'https://tinyurl.com/2b9hocps', 'https://tinyurl.com/265ekuvk', 
 'https://tinyurl.com/2c82ajhq', 'https://tinyurl.com/265y8p3e', 'https://tinyurl.com/286yslxu'])
 		// externalAdReply atau text with thumbnail. gatau bahasa Inggris? coba translate!
 		global.adReply = {
 			contextInfo: {
 				forwardingScore: 9999,
-				//isForwarded: true, // ini biar ada tulisannya diteruskan berkali-kali, jika ingin di hilangkan ganti true menjadi false
+				//isForwarded: false, // ini biar ada tulisannya diteruskan berkali-kali, jika ingin di hilangkan ganti true menjadi false
 				externalAdReply: { // Bagian ini sesuka kalian berkreasi :'v
                     showAdAttribution: true,
 					title: global.ucapan,
