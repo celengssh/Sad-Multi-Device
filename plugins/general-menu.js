@@ -108,10 +108,10 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     sourceUrl: sgc
 }
 } })
-conn.sendFile(m.chat, vn, 'dj1.mp3', null, m, true, {
+/*conn.sendFile(m.chat, vn, 'dj1.mp3', null, m, true, {
 type: 'audioMessage', 
 ptt: true 
-})
+})*/
     // conn.sendButton(m.chat, 
     //`*Hi, ${name} 👋*\n\n`, 
   //  text.trim(), './media/marin.jpg', [
